@@ -2,18 +2,23 @@
   color: gray;
   text-decoration: line-through;
 }
-#addTask{
+#addTask {
   width: 120px;
   font-size: small;
 }
-button{
-  width: 120px;
+.btn-danger {
+  width: fit-content;
   font-size: large;
+  margin-left: 80%;
+}
+.btn-success {
+  width: fit-content;
+  font-size: large;
+  margin-left: 100%;
 }
 li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-content: center;
   justify-content: space-between;
-
 }
